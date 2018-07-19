@@ -1,0 +1,111 @@
+Using the parameters:
+
+image.data
+
+output was:
+
+Features Generated:
+row = {4, 2, 6, 2}| col = {3, 0, 4, 8}| signs = {false, true, false, true}
+row = {3, 9, 5, 7}| col = {6, 4, 0, 4}| signs = {true, true, false, true}
+row = {3, 2, 1, 1}| col = {1, 8, 2, 5}| signs = {true, false, true, false}
+row = {4, 3, 2, 5}| col = {8, 3, 1, 7}| signs = {true, true, false, false}
+row = {5, 5, 4, 8}| col = {1, 5, 6, 3}| signs = {false, false, true, false}
+row = {8, 2, 7, 8}| col = {0, 3, 9, 5}| signs = {true, true, false, true}
+row = {7, 2, 0, 4}| col = {4, 4, 6, 5}| signs = {false, false, true, false}
+row = {4, 5, 8, 3}| col = {9, 3, 1, 3}| signs = {false, true, false, false}
+row = {3, 5, 5, 6}| col = {4, 2, 2, 4}| signs = {false, false, false, false}
+row = {5, 2, 4, 3}| col = {0, 5, 3, 8}| signs = {true, false, false, true}
+row = {8, 4, 8, 1}| col = {6, 3, 4, 9}| signs = {false, true, false, false}
+row = {7, 0, 0, 9}| col = {8, 0, 2, 9}| signs = {false, true, false, false}
+row = {3, 3, 4, 2}| col = {6, 2, 5, 9}| signs = {true, true, true, false}
+row = {8, 6, 1, 8}| col = {0, 6, 2, 5}| signs = {true, false, false, true}
+row = {3, 4, 4, 1}| col = {0, 3, 5, 4}| signs = {false, false, false, true}
+row = {5, 8, 9, 3}| col = {1, 7, 2, 9}| signs = {true, false, true, false}
+row = {0, 2, 0, 0}| col = {8, 5, 2, 3}| signs = {true, false, false, false}
+row = {9, 3, 3, 4}| col = {2, 3, 7, 9}| signs = {false, false, true, false}
+row = {1, 7, 8, 7}| col = {2, 2, 0, 8}| signs = {true, true, true, true}
+row = {8, 3, 9, 9}| col = {2, 8, 6, 7}| signs = {true, false, true, false}
+row = {7, 1, 4, 5}| col = {2, 3, 4, 9}| signs = {false, false, true, true}
+row = {9, 9, 6, 3}| col = {6, 2, 2, 7}| signs = {true, true, false, true}
+row = {9, 7, 1, 4}| col = {2, 5, 9, 0}| signs = {true, true, false, true}
+row = {8, 9, 1, 8}| col = {7, 1, 5, 9}| signs = {false, false, true, false}
+row = {3, 0, 7, 0}| col = {2, 9, 4, 7}| signs = {false, true, true, false}
+row = {3, 4, 3, 9}| col = {7, 9, 6, 8}| signs = {true, false, true, true}
+row = {4, 1, 4, 2}| col = {8, 2, 6, 4}| signs = {false, false, true, false}
+row = {0, 4, 9, 9}| col = {8, 0, 1, 4}| signs = {true, true, false, true}
+row = {3, 1, 7, 6}| col = {0, 4, 1, 1}| signs = {false, true, true, true}
+row = {1, 5, 3, 4}| col = {6, 2, 6, 4}| signs = {false, true, false, false}
+row = {6, 6, 1, 2}| col = {3, 9, 2, 3}| signs = {false, true, false, true}
+row = {4, 1, 2, 6}| col = {9, 0, 2, 3}| signs = {false, true, false, true}
+row = {7, 4, 8, 9}| col = {0, 3, 0, 6}| signs = {false, true, true, false}
+row = {1, 5, 2, 0}| col = {2, 6, 9, 3}| signs = {false, true, true, true}
+row = {7, 7, 4, 5}| col = {7, 4, 4, 3}| signs = {true, true, true, false}
+row = {1, 8, 2, 5}| col = {9, 6, 8, 1}| signs = {false, false, true, true}
+row = {8, 1, 2, 4}| col = {4, 5, 2, 3}| signs = {true, true, true, false}
+row = {1, 7, 4, 5}| col = {9, 2, 2, 9}| signs = {true, false, false, false}
+row = {5, 0, 4, 4}| col = {1, 5, 9, 1}| signs = {true, true, true, false}
+row = {5, 6, 7, 5}| col = {7, 2, 8, 6}| signs = {false, true, true, false}
+row = {0, 0, 5, 1}| col = {7, 1, 9, 7}| signs = {true, true, true, true}
+row = {4, 9, 4, 5}| col = {8, 0, 1, 5}| signs = {true, true, true, false}
+row = {1, 2, 0, 9}| col = {3, 5, 3, 1}| signs = {false, true, false, false}
+row = {1, 1, 7, 7}| col = {2, 4, 0, 9}| signs = {false, false, false, false}
+row = {5, 6, 7, 4}| col = {1, 7, 4, 6}| signs = {false, false, false, false}
+row = {5, 3, 9, 6}| col = {6, 0, 3, 1}| signs = {true, false, true, true}
+row = {9, 9, 5, 0}| col = {7, 7, 4, 8}| signs = {false, false, true, false}
+row = {5, 4, 8, 5}| col = {5, 3, 0, 8}| signs = {false, false, true, false}
+row = {6, 0, 0, 2}| col = {7, 9, 9, 0}| signs = {true, false, true, true}
+row = {2, 6, 4, 4}| col = {8, 3, 4, 4}| signs = {false, true, true, true}
+Final weights:
+w(0): -16.216778783088106
+w(1): -7.755700121567335
+w(2): -23.447454669371766
+w(3): 6.390986417664597
+w(4): -6.199043008593925
+w(5): 10.228262791364116
+w(6): -4.76934542607801
+w(7): 3.888100273337863
+w(8): -10.116149442485312
+w(9): -8.09327687492857
+w(10): -0.9160002992570968
+w(11): -4.848315902088098
+w(12): -9.79787560407411
+w(13): 1.61287941322154
+w(14): -19.085035014363186
+w(15): 1.1421473583010302
+w(16): 15.75353492873338
+w(17): 15.845082182337798
+w(18): -15.079135821891953
+w(19): 14.39298786248677
+w(20): -20.709852704146474
+w(21): -3.374111707763875
+w(22): 5.795759894618803
+w(23): -9.18736789795733
+w(24): -2.0309402546528856
+w(25): 8.88545969280693
+w(26): 18.867652633301184
+w(27): 8.354300175567474
+w(28): 23.38922800953293
+w(29): -3.908927645386412
+w(30): -0.02956200474865156
+w(31): -14.412305866577402
+w(32): -5.054984004357102
+w(33): 1.154313329128179
+w(34): 24.769911184719994
+w(35): 0.6885964913944465
+w(36): -4.255677910634962
+w(37): 6.670773923589163
+w(38): 9.213736307524444
+w(39): -7.099870353852266
+w(40): -1.257494379215144
+w(41): 24.710222422073002
+w(42): -11.376717196499078
+w(43): 7.639601218656434
+w(44): 15.578556709032366
+w(45): 21.646549885666648
+w(46): -4.758827621259671
+w(47): -8.248992634877695
+w(48): -7.697613387871488
+w(49): -17.74371245950016
+w(50): 4.472752088579803
+Reached cut-off value of: 136
+Guessed 0 incorrectly, Accuracy = 1.0

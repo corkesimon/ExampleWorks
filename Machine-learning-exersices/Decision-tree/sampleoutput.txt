@@ -1,0 +1,73 @@
+Usimg the parameters:
+
+hepatitis-training.dat hepatitis-text.dat
+
+output was:
+
+ASCITES = True:
+	SPIDERS = True:
+		VARICES = True:
+			FIRMLIVER = True:
+				Class = live, prob = 1.0
+			FIRMLIVER = False:
+				BIGLIVER = True:
+					STEROID = True:
+						Class = live, prob = 1.0
+					STEROID = False:
+						FEMALE = True:
+							Class = live, prob = 1.0
+						FEMALE = False:
+							ANTIVIRALS = True:
+								FATIGUE = True:
+									Class = die, prob = 1.0
+								FATIGUE = False:
+									Class = live, prob = 1.0
+							ANTIVIRALS = False:
+								Class = die, prob = 1.0
+				BIGLIVER = False:
+					Class = live, prob = 1.0
+		VARICES = False:
+			Class = die, prob = 1.0
+	SPIDERS = False:
+		FIRMLIVER = True:
+			AGE = True:
+				Class = live, prob = 1.0
+			AGE = False:
+				SGOT = True:
+					Class = live, prob = 1.0
+				SGOT = False:
+					ANTIVIRALS = True:
+						Class = die, prob = 1.0
+					ANTIVIRALS = False:
+						STEROID = True:
+							Class = live, prob = 1.0
+						STEROID = False:
+							Class = die, prob = 1.0
+		FIRMLIVER = False:
+			SGOT = True:
+				BIGLIVER = True:
+					SPLEENPALPABLE = True:
+						Class = live, prob = 1.0
+					SPLEENPALPABLE = False:
+						ANOREXIA = True:
+							Class = die, prob = 1.0
+						ANOREXIA = False:
+							Class = live, prob = 1.0
+				BIGLIVER = False:
+					Class = die, prob = 1.0
+			SGOT = False:
+				Class = live, prob = 1.0
+ASCITES = False:
+	BIGLIVER = True:
+		STEROID = True:
+			Class = die, prob = 1.0
+		STEROID = False:
+			ANOREXIA = True:
+				Class = die, prob = 1.0
+			ANOREXIA = False:
+				Class = live, prob = 1.0
+	BIGLIVER = False:
+		Class = live, prob = 1.0
+Guessed 131.0/137.0 correct
+Accuracy: 0.9562043795620438
+Baseline Class: live, Baseline Probability: 0.8
